@@ -1,0 +1,11 @@
+DubboDemo：
+dubbo注册和发现的demo
+
+启动zookeeper：
+zookeeper-3.4.14\zookeeper-3.4.14\bin\zkServer.cmd
+
+启动dubbo-simple-admin:
+dubbo-monitor-simple-2.0.0-assembly\dubbo-monitor-simple-2.0.0\assembly.bin\start.bat
+访问http://localhost:7072
+
+也可以用dubbo-amdin（界面比dubbo-simple-admin好看点），但是点服务的时候会报错，还未处理，详见apache-tomcat-9.0.6-dubbo页面\说明.txt
